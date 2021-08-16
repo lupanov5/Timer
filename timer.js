@@ -1,6 +1,4 @@
 function timer(id, deadLine) {
-    
-    //Timer
 
     function getTimeRemaining(endTime) {
         const t = Date.parse(endTime) - Date.parse(new Date()),
@@ -52,5 +50,3 @@ function timer(id, deadLine) {
 
     setClock(id, deadLine);
 }
-
-export default timer;
